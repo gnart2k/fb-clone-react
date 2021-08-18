@@ -1,0 +1,35 @@
+.Story{
+  margin-top:20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.Story__cards{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.Story__cards > img{
+  width: 90%;
+  border-radius: 10px;
+}
+
+.Story__cards_avatar{
+  position: absolute !important;
+  bottom: 40px;
+  left: 5px;
+  border: 1px solid rgba(255,255,255,0.8);
+}
+
+.Story__cards >h4{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  bottom: 20px;
+  left: 5px;
+  backdrop-filter: blur(5px);
+}

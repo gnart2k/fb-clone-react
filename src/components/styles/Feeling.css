@@ -1,0 +1,57 @@
+.Feeling {
+  margin-top:20px;
+  border: none;
+  border-radius: 10px;
+  background-color:white;
+}
+
+.Feeling__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.Feeling__input > input {
+  width: 100%;
+  border: none;
+  background-color: #f0f2f5;
+  padding: 20px;
+  margin-left: 30px;
+  border-radius: 16px;
+}
+
+.Feeling__input > input:focus{
+  outline: none;
+}
+
+.Feeling > hr{
+  border: 0;
+  height: 1px;
+  background: lightgray;
+  margin-bottom: 10px;
+}
+
+.Feeling__actions{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.Feeling__actions_text{
+  color: gray;
+  padding-left: 10px;
+}
+
+.VideoCallIcon{
+  color: red !important;
+}
+
+.ImageIcon{
+  color: #4dc069;
+}
+
+.EmojiEmotionsIcon{
+  color: #f7b928;
+}

@@ -1,0 +1,49 @@
+.Notification{
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 67px;
+}
+
+.Pages__title{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin: 20px 0;
+}
+
+.Pages__info{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.Pages__info>h4{
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+hr{
+    height: .5px;
+    background: rgba(0, 0, 0 , 0.3);
+    border: none;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.Friend__title{
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.Friends__info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Friends__info> h4{
+    margin-left: 10px;
+}

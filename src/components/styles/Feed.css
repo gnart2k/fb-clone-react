@@ -1,0 +1,12 @@
+.Feed {
+  margin-top: 67px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  overflow: auto;
+  height: 100vh;
+}
+
+.Feed::-webkit-scrollbar {
+  display: none;
+}

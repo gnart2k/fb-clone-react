@@ -1,0 +1,135 @@
+.News {
+  background-color: white;
+  border: 1px transparent;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.News__cards_users {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px;
+  position: relative;
+}
+
+.News__cards_users > h3 {
+  margin-left: 10px;
+}
+
+.News__cards_users > h5 {
+  position: absolute;
+  margin-left: 5px;
+  top: 20px;
+  left: 45px;
+  z-index: 1;
+  color: gray;
+}
+.News__icons {
+  font-size: medium !important;
+  position: absolute;
+  margin-left: 5px;
+  top: 21px;
+  left: 118px;
+  z-index: 1;
+  color: gray;
+}
+
+.News__cards > p {
+  margin-left: 10px;
+}
+.News__cards {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.News__cards > img {
+  margin-top: 5px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.News__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.News__button {
+  display: flex;
+  margin: 0 10px;
+  color: gray;
+  align-items: center;
+  padding: 10px 0;
+  border: none !important;
+  background-color:white !important;
+  cursor: pointer;
+}
+.News__disLike {
+  display: flex;
+  margin: 0 10px;
+  color: gray;
+  align-items: center;
+  padding: 10px 0;
+  border: none;
+  background-color:white;
+  cursor: pointer;
+}
+.News__like {
+  display: flex;
+  margin: 0 10px;
+  color: rgb(41, 41, 245);
+  align-items: center;
+  padding: 10px 0;
+  border: none;
+  background-color:white;
+  cursor: pointer;
+}
+.News__button > h5 {
+  padding-left: 7px;
+}
+
+.News__cards_count {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.News__card_count_like {
+  display: flex;
+}
+.News__card_count_comment {
+  display: flex;
+  margin-right: 10px;
+}
+.News__card_count_share {
+  display: flex;
+  margin-right: 10px;
+}
+
+.likeIcon_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(22, 166, 251, 0.6),
+    rgba(29, 146, 230, 0.9)
+  );
+  border-radius: 50%;
+}
+.likeIcon {
+  color: white;
+  font-size: small !important;
+}
